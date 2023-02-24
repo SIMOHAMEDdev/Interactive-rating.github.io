@@ -1,0 +1,120 @@
+@media only screen and (min-width: 376px) {
+    body {
+        display: flex;
+        justify-content: center;
+        height: 97vh;
+        align-items: center;
+        background-color: hsl(216, 12%, 8%);
+        font-family: 'Roboto', sans-serif;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(216, 12%, 8%);
+    }
+  }
+.container1{
+    background-color:hsl(213, 19%, 18%);
+    text-align: center;
+    width: 350px;
+    height: 340px;
+    border-radius: 30px;
+}
+
+h1, h2 {
+    font-size: 35px;
+    color: hsl(0, 0%, 100%)
+}
+.ty {
+    position: relative;
+    top: 10px;
+}
+p {
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+img {
+    margin-top: 20px;
+    height: 150px;
+}
+.rating {
+    background-color: hsl(213, 19%, 23%);
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 35px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+.sel {
+    position: relative;
+    top: 8px;
+    font-size: 15px;
+    color: orange;
+}
+.num {
+    height: 45px;
+    width: 45px;
+    margin-right: 5px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.num:hover {
+    background-color: hsl(219, 8%, 64%);
+    color: white;
+}
+.btn1, .btn2 {
+    height: 37px;
+    width: 85%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn1 {
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.btn1:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.container2{
+    background-color: hsl(213, 19%, 18%);
+    display: none;
+    border: none;
+    text-align: center;
+    width: 370px;
+    height: 380px;
+    border-radius: 30px;
+}
+#star {
+    font-size: 80px;
+    margin-top: 10px;
+    color: orange;
+}
+.star {
+    margin-bottom: -20px;
+}
+.error {
+    display: none;
+    border: 1px solid red;
+    width: 280px;
+    height: 45px;
+    border-radius: 13px;
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+h3 {
+    color: rgb(243, 43, 43);
+    position: relative;
+    bottom: 9px;
+    font-weight: 100;
+}
