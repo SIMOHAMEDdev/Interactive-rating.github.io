@@ -11,7 +11,6 @@ const error = document.querySelector('.error')
 //     btn.addEventListener('click', (e)=>{
 //         if(btn.classList.contains('btn1')){
 //             cont1.style.display = 'none'
-//             cont2.style.display = 'block'
 //         }
 //     })
 // })
